@@ -4,7 +4,8 @@ class PagesController < ApplicationController
   end
 
   def about
-    @title = "about"
+    @title = "About"
+    render 'our_company'
   end
 
   def our_company
